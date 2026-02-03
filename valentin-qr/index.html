@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loading">
+  <h1>Loading your surprise 💭</h1>
+</div>
+
+<!-- Password Screen -->
+<div id="lock" class="hidden">
+  <h2>Unlock My Heart ❤️</h2>
+  <input type="password" id="password" placeholder="Secret code ta ektu deben Madum">
+  <button onclick="unlock()">Unlock</button>
+  <p id="error"></p>
+</div>
+
+<!-- Main Content -->
+<div id="main" class="hidden">
+
+  <audio id="music" src="music_obhijog.mp3"></audio>
+  <button onclick="playMusic()">🎵 Tap to feel my heartbeat</button>
+
+  <h1 id="name"></h1>
+
+  <section class="letter">
+    <p>Scroll slowly… this is from my heart ❤️</p>
+    <p>I never planned to fall in love.</p>
+    <p>But then you came into my life.</p>
+    <p>And everything felt right.</p>
+    <p>You are my today, my tomorrow, my always.</p>
+  </section>
+
+  <div class="question">
+    <h2>Will you be my Valentine? 💖</h2>
+    <button onclick="yes()">YES ❤️</button>
+    <button id="no" onmouseover="moveNo()">NO 😈</button>
+  </div>
+
+  <div id="final" class="hidden">
+    <h1>YAYYYY 🎉💘</h1>
+    <p>I choose you. Always.😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 😘 </p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
